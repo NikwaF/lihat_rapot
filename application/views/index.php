@@ -222,7 +222,7 @@
 `);
                     } else{ 
                     $.ajax({
-                        url: `<?= base_url('index.php./welcome/get_value')?>`,
+                        url: `<?= base_url('index.php/welcome/get_value')?>`,
                         type: 'post',
                         data: {nis: $('input[name="nis"]').val()},
                         dataType: 'json',
